@@ -27,7 +27,7 @@ Requirement Analysis is one of the most crucial phases in the Software Developme
 
 <b>Below are key reasons why Requirement Analysis is vital in software development:</b>
 
-### 1. Establishes a Clear Project Scope
+   ### 1. Establishes a Clear Project Scope
 
 Requirement Analysis helps define what the system will and will not do. By identifying and documenting stakeholder needs early, it prevents misunderstandings, scope creep, and wasted effort.
 
@@ -37,7 +37,7 @@ Requirement Analysis helps define what the system will and will not do. By ident
   
   - Sets measurable boundaries and goals for the project.
 
-### 2. Improves Design and Development Efficiency
+  ### 2. Improves Design and Development Efficiency
 
 A well-defined set of requirements gives developers a clear roadmap to follow, reducing guesswork and rework.
 
@@ -47,7 +47,7 @@ A well-defined set of requirements gives developers a clear roadmap to follow, r
   
   - Reduces time wasted on unnecessary features or incorrect assumptions.
 
-### 4. Minimizes Project Costs and Risks
+  ### 4. Minimizes Project Costs and Risks
 
 Detecting and fixing problems early in the requirement phase is far less costly than during later stages like development or testing.
 
@@ -64,7 +64,7 @@ Requirement Analysis involves a series of structured activities aimed at underst
 
 Below are the five key activities involved in the Requirement Analysis process:
 
-### 1. Requirement Gathering
+  ### 1. Requirement Gathering
 
 This is the first and most critical step in Requirement Analysis. It focuses on collecting information about user needs, business goals, and system expectations.
 
@@ -78,7 +78,7 @@ Key tasks include:
 
 - Reviewing existing systems, reports, and documentation to identify gaps and improvement areas.
 
-### 2. Requirement Elicitation
+  ### 2. Requirement Elicitation
 
 Once information is gathered, the next step is to refine and expand on those insights. Requirement Elicitation focuses on extracting clear, specific, and measurable requirements from stakeholders.
 
@@ -92,7 +92,7 @@ Key tasks include:
 
 - Identifying constraints and assumptions that may affect system design.
 
-### 3. Requirement Documentation
+  ### 3. Requirement Documentation
 
 After eliciting requirements, they must be documented in a structured and accessible format. This ensures that all team members and stakeholders have a shared understanding of what needs to be built.
 
@@ -106,7 +106,7 @@ Key tasks include:
 
 - Ensuring all requirements are clear, complete, and traceable.
 
-### 4. Requirement Analysis and Modeling
+  ### 4. Requirement Analysis and Modeling
 
 This stage focuses on analyzing and prioritizing the collected requirements and representing them through models or diagrams for better understanding and validation.
 
@@ -120,7 +120,7 @@ Key tasks include:
 
 - Identifying dependencies, potential conflicts, and areas that need further clarification.
 
-### 5. Requirement Validation
+  ### 5. Requirement Validation
 
 In this final activity, all documented requirements are reviewed, verified, and approved to ensure they align with user expectations and project objectives.
 
@@ -134,11 +134,12 @@ Key tasks include:
 
 - Getting formal sign-off from stakeholders to finalize the requirements before development begins.
 
+
 ## 4. Types of Requirements
 
 In software development, requirements define what the system should do and how it should perform. They are generally categorized into two main types: Functional Requirements and Non-functional Requirements. Both are essential to ensure that the system operates effectively and meets user expectations.
 
-### Functional Requirements
+  ### Functional Requirements
 Functional requirements describe the specific behaviors, actions, and features the system must perform. They define what the system should do to meet the needs of users and stakeholders.
 
 Purpose:
@@ -176,7 +177,7 @@ Examples for the Booking Management System:
   
   Admins should be able to manage user accounts and view reports of bookings and payments.
 
-###  Non-functional Requirements
+  ###  Non-functional Requirements
 Non-functional requirements describe how the system should perform rather than what it should do. They define system qualities such as performance, security, usability, scalability, and reliability.
 
 Purpose:
@@ -245,6 +246,7 @@ Benefits of Use Case Diagrams
 - Admin: Manages property listings, users, and booking data.
 
 #### Use Cases
+
 Actor	Use Cases
 - Guest	View Property Listings, Search for Properties
   
@@ -280,14 +282,14 @@ Acceptance Criteria (AC) are a set of conditions or requirements that a software
 
 #### Acceptance Criteria:
 
-- Users must be able to select available dates for booking.
-
-- Users must be able to enter payment details securely.
-
-- The system must validate payment information before confirming the booking.
-
-- A booking confirmation page should display the reservation details after successful payment.
-
-- Users should receive a confirmation email within 2 minutes of completing payment.
-
-- If payment fails, the system should display an appropriate error message and allow retry.
+  - Users must be able to select available dates for booking.
+  
+  - Users must be able to enter payment details securely.
+  
+  - The system must validate payment information before confirming the booking.
+  
+  - A booking confirmation page should display the reservation details after successful payment.
+  
+  - Users should receive a confirmation email within 2 minutes of completing payment.
+  
+  - If payment fails, the system should display an appropriate error message and allow retry.
