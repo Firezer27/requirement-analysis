@@ -251,3 +251,43 @@ Actor	Use Cases
 - Registered User	Register/Login, Search Properties, Book Property, Make Payment, View Booking History, Cancel Booking
   
 - Admin	Manage Property Listings, Manage Users, View Reports
+
+
+## 6. Acceptance Criteria
+
+Acceptance Criteria (AC) are a set of conditions or requirements that a software feature must satisfy to be considered complete and acceptable by stakeholders. They define “done” in a measurable, testable way, ensuring that everyone — developers, testers, and stakeholders — has a shared understanding of the feature’s expected behavior.
+
+#### Importance of Acceptance Criteria
+
+- Clarity and Alignment:
+  Ensures all team members and stakeholders clearly understand what is expected from a feature.
+
+- Testable Requirements:
+  Provides a basis for QA to create test cases and validate that the feature works as intended.
+
+- Scope Control:
+  Prevents ambiguity and scope creep by clearly specifying what is included in a feature.
+
+- Improved Communication:
+  Bridges gaps between business requirements and technical implementation.
+
+- Quality Assurance:
+  Helps ensure that the delivered feature meets both functional and non-functional requirements.
+
+ Example: Checkout Feature in Booking Management System
+
+  Feature: Checkout / Payment Confirmation
+
+#### Acceptance Criteria:
+
+- Users must be able to select available dates for booking.
+
+- Users must be able to enter payment details securely.
+
+- The system must validate payment information before confirming the booking.
+
+- A booking confirmation page should display the reservation details after successful payment.
+
+- Users should receive a confirmation email within 2 minutes of completing payment.
+
+- If payment fails, the system should display an appropriate error message and allow retry.
