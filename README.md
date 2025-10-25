@@ -213,3 +213,25 @@ Examples for the Booking Management System:
   - The system should maintain an uptime of 99.9%, ensuring high availability for users worldwide.
   
   - In the event of a system failure, data recovery should occur within 5 minutes to minimize downtime.
+
+
+## 5. Use Case Diagrams
+
+A Use Case Diagram is a visual representation that shows how users (actors) interact with a system to achieve specific goals (use cases). It is an essential part of Requirement Analysis because it helps identify, clarify, and organize system functionalities from the user’s perspective.
+
+Benefits of Use Case Diagrams
+
+1. Clarity in Requirements:
+  Helps stakeholders easily understand the system’s scope and functionality.
+
+2. Improved Communication:
+  Acts as a bridge between technical and non-technical stakeholders, ensuring everyone understands system interactions.
+
+3. Simplified Design Planning:
+  Provides a foundation for defining user stories, workflows, and further design documentation.
+
+4. Traceability:
+  Each use case can be traced to a specific requirement, ensuring complete coverage during development and testing.
+
+5 Error Reduction:
+  Helps identify missing requirements or redundant features early in the project.
