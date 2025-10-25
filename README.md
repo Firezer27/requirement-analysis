@@ -235,3 +235,19 @@ Benefits of Use Case Diagrams
 
 5 Error Reduction:
   Helps identify missing requirements or redundant features early in the project.
+
+#### Actors in the Booking Management System
+
+- Guest (Unregistered User): Can browse and search available properties.
+
+- Registered User: Can search, book, and manage reservations.
+
+- Admin: Manages property listings, users, and booking data.
+
+#### Use Cases
+Actor	Use Cases
+- Guest	View Property Listings, Search for Properties
+  
+- Registered User	Register/Login, Search Properties, Book Property, Make Payment, View Booking History, Cancel Booking
+  
+- Admin	Manage Property Listings, Manage Users, View Reports
