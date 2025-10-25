@@ -133,3 +133,83 @@ Key tasks include:
 - Performing traceability analysis to ensure all requirements are covered in design and testing.
 
 - Getting formal sign-off from stakeholders to finalize the requirements before development begins.
+
+## 4. Types of Requirements
+
+In software development, requirements define what the system should do and how it should perform. They are generally categorized into two main types: Functional Requirements and Non-functional Requirements. Both are essential to ensure that the system operates effectively and meets user expectations.
+
+### Functional Requirements
+Functional requirements describe the specific behaviors, actions, and features the system must perform. They define what the system should do to meet the needs of users and stakeholders.
+
+Purpose:
+These requirements directly relate to user interactions and system operations — they specify how users will use the system.
+
+Examples for the Booking Management System:
+
+- User Registration & Login:
+
+  Users must be able to create an account by providing personal details such as name, email, and password.
+  
+  Registered users should be able to log in securely using their credentials.
+
+- Property Search:
+
+  Users should be able to search for properties based on filters like location, price range, and availability dates.
+  
+  The system should display a list of matching properties with key details and images.
+
+- Booking Management:
+
+  Users must be able to book properties by selecting available dates and confirming reservations.
+  
+  The system should generate booking confirmations and update property availability automatically.
+
+- Payment Processing:
+
+  Users should be able to make payments through integrated payment gateways (e.g., PayPal, credit card).
+  
+  The system should display payment status (successful, pending, or failed) in the booking history.
+
+- Admin Management:
+
+  Admins can view, edit, or remove property listings.
+  
+  Admins should be able to manage user accounts and view reports of bookings and payments.
+
+###  Non-functional Requirements
+Non-functional requirements describe how the system should perform rather than what it should do. They define system qualities such as performance, security, usability, scalability, and reliability.
+
+Purpose:
+These requirements ensure that the system operates efficiently, securely, and reliably under expected conditions.
+
+Examples for the Booking Management System:
+
+1- Performance:
+
+  - The system should load all main pages (Home, Search, Booking) within 2 seconds.
+  
+  - It should support at least 1000 concurrent users without performance degradation.
+
+2- Security:
+
+  - All sensitive user data (e.g., passwords, payment information) must be encrypted using SSL/TLS protocols.
+  
+  - The system should implement two-factor authentication (2FA) for login and account verification.
+
+3- Scalability:
+
+  - The application should be scalable to support future increases in traffic and property listings.
+  
+  - It should support horizontal scaling by adding more servers when needed.
+
+4- Usability:
+
+  - The interface should be intuitive, ensuring users can complete bookings within 3 clicks from the search page.
+  
+  - The design should follow consistent color schemes, typography, and accessibility standards (WCAG compliance).
+
+5- Reliability & Availability:
+
+  - The system should maintain an uptime of 99.9%, ensuring high availability for users worldwide.
+  
+  - In the event of a system failure, data recovery should occur within 5 minutes to minimize downtime.
